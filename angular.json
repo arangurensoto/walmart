@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "walmart"
+    }
+  },
+  "defaultProject": "walmart",
+  "cli": {
+    "analytics": "954fcbe2-3315-4ed9-aa65-9ca920301b2d"
+  }
 }
