@@ -1,0 +1,13 @@
+<p>promotion works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pro of promotionService.promotions">
+            <td>{{ pro.id }}</td>
+        </tr>
+    </tbody>
+</table>
