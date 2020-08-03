@@ -169,7 +169,7 @@
                                                     </div>
                                                   </div>
                                                   <div id="image" class="bg-white">
-                                                    <img id="lazy-img" alt="Samsung - LED 50 4K Ultra HD Smart TV / UN50NU7095GXZS" [src]=" pro.image " class="img-hover-zoom img-fluid m-auto" style="filter: unset; min-width: 50px; max-height: 240px;">
+                                                    <img id="lazy-img" alt="" [src]="'https://'+pro.image" class="img-hover-zoom img-fluid m-auto" style="filter: unset; min-width: 50px; max-height: 240px;">
                                                   </div>
                                                 </div>
                                               </div>
@@ -181,11 +181,11 @@
                                                   </div>
                                                 </div>
                                                 <div class="mb-12">
-                                                  <div class="walmart-sales-price d-flex" style="display: flex; align-items: center;">${{ pro.price }}
+                                                  <div class="walmart-sales-price d-flex" style="display: flex; align-items: center;">${{ pro.price | number }}
                                                     <div  class="walmart-discount-percentage-card" style="margin-top: 1px; margin-left: 6px;">33%</div>
                                                   </div>
                                                   <div class="d-flex">
-                                                    <span class="walmart-reference-price">{{ pro.price }}</span>
+                                                    <span class="walmart-reference-price">{{ pro.price | number }}</span>
                                                   </div>
                                                 </div>
                                                 <div class="d-flex" style="position: absolute; bottom: 70px;">

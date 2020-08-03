@@ -11,7 +11,7 @@ import { Promotion } from './promotion.model'
 export class PromotionService {
   selectedPromotion: Promotion
   promotions: Promotion[]
-  readonly baseURL = 'https://walmartapi.herokuapp.com'
+  readonly baseURL = 'http://localhost:3000'
 
   constructor(private http : HttpClient) { }
 
