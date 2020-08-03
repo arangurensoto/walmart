@@ -43,6 +43,7 @@ export class PromotionComponent implements OnInit {
       this.filterId = this.filter.filter(
         product => product.id == search
       )
+      this.show = 1
       this.promotionService.promotions = this.filterId
       if (search.length >= 3) {
         this.filter = this.PROMOTIONS
