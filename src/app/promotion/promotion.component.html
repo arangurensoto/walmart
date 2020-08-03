@@ -181,11 +181,11 @@
                                                   </div>
                                                 </div>
                                                 <div class="mb-12">
-                                                  <div class="walmart-sales-price d-flex" style="display: flex; align-items: center;" >${{  pro.price / show }}
+                                                  <div class="walmart-sales-price d-flex" style="display: flex; align-items: center;" >${{  pro.price / show | number }}
                                                     <div *ngIf="show == 2" class="walmart-discount-percentage-card" style="margin-top: 1px; margin-left: 6px;" >50%</div>
                                                   </div>
                                                   <div class="d-flex">
-                                                    <span class="styled__BasePrice-sc-5i75pk-4 eQiKoB">{{ pro.price | number }}</span>
+                                                    <span class="styled__BasePrice-sc-5i75pk-4 eQiKoB">${{ pro.price | number }}</span>
                                                   </div>
                                                 </div>
                                                 <div class="d-flex" style="position: absolute; bottom: 70px;">
